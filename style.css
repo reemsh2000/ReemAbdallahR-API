@@ -4,20 +4,41 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(105, 27, 27);
+    font-family:cursive;
+    background: linear-gradient(to bottom, #f1b1d785 0%, #8f8fec86 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border-bottom: 3px solid red;
+    margin: auto; 
+    width:60%;
+    padding-top: 15px;
 }
 header img{
-    height: 150px;
-    width: 200px;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
 }
-header form{
-    border: 1px solid black;
+header h1{
+    color:   #3a3a9286 ;
+    margin: auto;
+    margin-left: 15px;
+    
+}
+.form-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+
+.form-sec form{
     height: 50px;
     width: 60%;
     margin-right: 10%;
@@ -25,8 +46,9 @@ header form{
     justify-content: space-between;
     border: none;
     outline: none;
+    margin: auto;
 }
-header form #userInput{
+.form-sec form #userInput{
     height: 100%;
     width: 75%;
     border-radius: 30px 0 0 30px;
@@ -34,7 +56,7 @@ header form #userInput{
     outline: none;
     border: none;
 }
-header form .searchBtn{
+.form-sec form .searchBtn{
     width: 24.5%;
     height: 100%;
     border-radius: 0 30px 30px 0;
@@ -46,14 +68,42 @@ header form .searchBtn{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid gray;
 }
 .facts{
-    width: 40%;
-    border: 3px solid orangered;
-    padding-left: 20px;
+    width: 35%;
+    padding: 15px 5px 10px 20px;
+    background-color: rgb(243, 188, 243);
+    margin :5px;
+    border-radius: 10px;
+}
+.facts h2{
+    color: purple;
+}
+.facts h3{
+    font-size: 18px;
+    color: rebeccapurple;
+}
+
+.cats-list{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(68, 9, 128);
+}
+.cats-list li{
+    text-align: right;
 }
 .catResult{
-    border: 3px solid green;
     width: inherit;
+    padding-top: 20px;
 }
+.catResult img{
+    width:40%;
+    height: 180px;
+    border-radius: 7px;
+}
+
