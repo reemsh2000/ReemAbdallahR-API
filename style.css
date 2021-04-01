@@ -38,7 +38,7 @@ header h1{
 }
 
 
-.form-sec form{
+.form-sec .search__form{
     height: 50px;
     width: 60%;
     margin-right: 10%;
@@ -48,7 +48,7 @@ header h1{
     outline: none;
     margin: auto;
 }
-.form-sec form #userInput{
+.form-sec .search__form #userInput{
     height: 100%;
     width: 75%;
     border-radius: 30px 0 0 30px;
@@ -56,7 +56,7 @@ header h1{
     outline: none;
     border: none;
 }
-.form-sec form .searchBtn{
+.form-sec .search__form .searchBtn{
     width: 24.5%;
     height: 100%;
     border-radius: 0 30px 30px 0;
@@ -73,7 +73,7 @@ header h1{
     width: 35%;
     padding: 15px 5px 10px 20px;
     background-color: rgb(243, 188, 243);
-    margin :5px;
+    margin :25px;
     border-radius: 10px;
 }
 .facts h2{
@@ -102,7 +102,7 @@ header h1{
     padding-top: 20px;
 }
 .catResult img{
-    width:40%;
+    width:38%;
     height: 180px;
     border-radius: 7px;
 }

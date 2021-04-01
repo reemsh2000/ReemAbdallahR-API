@@ -4,26 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style.css"> 
   <title>Cats Lovers</title>
 </head>
 <body>
   <header>
     <img src="images/miso.jpeg" alt="miso"/>
   <h1>Cat lovers </h1>
-</header>
-  <section class="form-sec">
-    <form  action="/search" method="post" id="search" class="search__form" autocomplete="off">
-        <input id="userInput" type="text" placeholder= "Search for cats" required>
-        <input type="submit"  value="Search" class="searchBtn">
-    </form>
+</header> 
+   <section class="form-sec">
+    <div class="search__form" >
+      <input id="userInput" type="text" placeholder= "Search for cats" required>
+      <button class="searchBtn" id="searchBtn">Search</button>
+    </div>
+    
+  
+
+    
   </section>
 <section class="catBox">
     <div class="facts">
-      <h2>Some Facts About cats :</h2>
+      <h2>Facts About cats :</h2>
       <h3>Tips for keeping your cat Happy</h3>
       <ul class="cats-list">
        <li> Tired Cat is a Happy Cat.</li><!--some facts about cats-->
+       
       <li> Bird Viewing Stations.</li>
       <li>Let Your Cat Go Hunting.</li>
       <li> Stop Door Dashing.</li>
@@ -50,8 +55,9 @@
         <img id ="third-cat" src="images/3.jpg" alt="cat">
         <img id ="forth-cat" src="images/4.jpg" alt="cat">
       </div>
-
+   
     </div>
-</section>
+</section> 
+<script src="index.js"></script>
 </body>
 </html>
