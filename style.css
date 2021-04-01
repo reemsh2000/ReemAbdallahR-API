@@ -73,7 +73,7 @@ header h1{
     width: 35%;
     padding: 15px 5px 10px 20px;
     background-color: rgb(243, 188, 243);
-    margin :5px;
+    margin :25px;
     border-radius: 10px;
 }
 .facts h2{
@@ -102,7 +102,7 @@ header h1{
     padding-top: 20px;
 }
 .catResult img{
-    width:40%;
+    width:38%;
     height: 180px;
     border-radius: 7px;
 }
