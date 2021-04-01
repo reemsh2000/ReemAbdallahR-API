@@ -15,10 +15,10 @@ fetch('https://api.thecatapi.com/v1/images/search?limit=4')
     }) 
 .then((data)=>{
     console.log('data',data)
-   img1.innerHTML=`<img src='${data[0].url}' alt ='cat'>`;
-   img2.innerHTML=`<img src='${data[1].url}' alt ='cat'>`;
-   img3.innerHTML=`<img src='${data[2].url}' alt ='cat'>`;
-   img4.innerHTML=`<img src='${data[3].url}' alt ='cat'>`;
+    img1.src=data[0].url
+    img2.src=data[1].url
+    img3.src=data[2].url
+    img4.src=data[3].url
    
  })
 .catch((error)=>console.log('Error',error))
